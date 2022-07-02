@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@800&display=swap');
+
+body {
+  font-family: "Bebas Neue", monospace;
+  text-align: center;
+  background-image: url("https://i.postimg.cc/2yTDh1b7/rutflix.png");
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 100px;
+  font-family: "Fira Sans Extra Condensed", bold;
+  color: #da1e26;
+  font-shadow: 5px 5px 10px #aef4dd;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  font-family: "Bebas Neue", monospace;
+  letter-spacing: 1px;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Bebas Neue", monospace;
+  letter-spacing: 1px;
+  font-size: 30px;
+  color: #ffbb2f;
+}
+
+a {
+  font-size: 18px;
+}
+
+h2 {
+  font-family: "Bebas Neue", monospace;
+  letter-spacing: 1px;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Bebas Neue", monospace;
+  letter-spacing: 1px;
+  font-size: 30px;
+  color: #f0e68c;  
+}
+
+.page-logo {
+  padding: 10px;
+  width: 150px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 2em #000000;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  width: 450px;
+  padding: 5px;
+}
+
+#filmeFavorito {
+  font-color: #ffbb2f;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  text-align: center;
+  width: 30%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  padding: auto;
+}
+
+.back-to-top {
+  visibility: visible;
+  opacity: 1;
+  position: flex-end;
+  background-color: #eeeeee;
+  color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.back-to-top:hover {
+  opacity: .5;
+  background-color: #000000;
+  color: #eeeeee;
+}

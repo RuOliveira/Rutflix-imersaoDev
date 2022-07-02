@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Imersão Dev - Aluraflix</title>
+		<script type="text/javascript" src="src/js/functions.js"></script>
+		<link rel="stylesheet" type="text/css" href="src/css/style.css">
+		<link rel="stylesheet" type="text/css" href="src/img.css">
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container">
+			<h1 class="page-title">RUTFLIX</h1>
+			<br>
+			<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+			<br>
+			<p class="page-subtitle">Compartilhe os seus filmes favoritos!</p>
+			<div class="form-wrapper">
+				<input type="text" id="nome" name="nome" placeholder="Insira o nome do filme">
+				<input type="text" id="movie" name="filme" placeholder="Insira a url da imagem">
+				<button onClick="adicionarFilme()">Adicionar Filme</button>
+			</div>
+			<div id="elementoListaFilmes"></div>
+			<br><br>
+			<wbr>
+			<br><br>
+			<div>
+				<h2>Conheça a minha lista de filmes favoritos!</h2>
+				<div id="listaFilmes = []"></div>
+			</div>
+			<a href="https://alura.com.br/" target="_blank">
+				<img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+			</a>
+			<script src="src/js/functions.js" ></script>
+			<script src="src/js/listaFilmes.js" ></script>
+			<script src="src/js/backTop.js" ></script>
+			<br>
+			<br>
+			<br>
+			<div>
+				<a href="#" class="back-to-top">Voltar ao início</a>
+			</div>
+		</div>
+	</body>
+</html>
