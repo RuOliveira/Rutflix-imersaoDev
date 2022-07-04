@@ -1,12 +1,12 @@
 function adicionarFilme() {
   var filmeFavorito = document.getElementById("movie").value;
   var nomeFilmeFavorito = document.getElementById("nome").value;
-  if (filmeFavorito.endsWith(".jpg")) {
+  if (filmeFavorito.endsWith(".jpg") || filmeFavorito.endsWith(".png")) {
     var nome = nomeFilme();
     var movie = { movie: filmeFavorito, nome: nome };
     listarFilmesEcra(movie);
   } else {
-    console.error("Endereço de filme inválido.");
+    alert("Endereço de filme inválido.");
   }
   document.getElementById("movie").value = "";
   document.getElementById("nome").value = "";
